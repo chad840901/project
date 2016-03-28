@@ -1,0 +1,29 @@
+h1{
+	color:purple;
+	text-align:center;
+}
+#col1{
+	background-color: #6600FF;
+	float:left;
+	width: 170px;
+}	
+#col1 a{
+	color:white;
+}
+#mid{
+	text-align:center;
+}
+.gray{
+	background: gray;
+}
+.green{
+	color: green;
+}
+ul{
+	list-style-type:none;
+
+}
+#col1 ul li a{
+	text-decoration:none;
+}
+
