@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+        <head>
+                <meta charset="UTF-8">
+                <link rel="stylesheet" href="css/all.css" />
+        </head>
+        <body>
+         <h1>CSS 教學  >  繼承</h1>
+         
+         <div id="col1">
+<br><br>
+<div id="left-nav">
+<ul>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/">CSS 語法教學</a></li>
+<li> &nbsp; </li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/syntax.php">CSS 語法</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/apply.php">CSS 套用方式</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/media-types.php">CSS  媒體類別</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/cascade.php">CSS 串接</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/inheritance.php">CSS 繼承</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/class-id.php">CSS Class 與 ID</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/div-span.php">CSS Div 與 Span</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/length-units.php">CSS 長度單位</a></li>
+<li> &nbsp; </li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/box-model.php">CSS 盒子模式</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/margin.php">CSS 邊界 (Margin)</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/border.php">CSS 邊框 (Border)</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/padding.php">CSS 留白 (Padding)</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/background.php">CSS 背景 (Background)</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/color.php">CSS 顏色</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/font.php">CSS 字體</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/link.php">CSS 連接</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/list.php">CSS 清單 (List)</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/table.php">CSS 表格 (Table)</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/position.php">CSS 位置 (Position)</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/text.php">CSS 文字 (Text)</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/float.php">CSS 浮動 (Float)</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/clear.php">CSS 清除 (Clear)</a></li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/cursor.php">CSS 滑鼠游標圖案</a></li>
+<li> &nbsp; </li>
+<li><a href="http://www.1keydata.com/css-tutorial/tw/codes.php">CSS 樣式</a></li>
+<br><br><br>
+</ul>
+</div></div>
+
+<p>在一個 HTML 文件中，標籤之間有所謂的親子關係。舉例來說，< title> 這個標籤一定都是在 < head > 這個標籤之內，所以我們就說 < title > 是 < head > 的子標籤。繼承 (inheritance) 的意思就是說子標籤的樣式會跟父標籤一樣，除非子標籤本身另有自訂的樣式。</p>
+
+<p>舉例來說，如果我們有以下的樣式：</p>
+
+<p class=gray> p { color: #00FF00; } 
+strong { font-size:20px; }
+</p>
+下面這行 HTML 碼
+<p class=gray>< p >這是一個 < strong ><br>
+繼承的例子。</ strong></ p></p>
+就會顯現出為，
+
+<p class="green">這是一個繼承的例子。</p>
+
+<p>在以上的例子中，雖然我們並沒有對 < strong> 設定顏色，可是我們可以看到，整個句子的顏色都是綠色的。這是因為， < strong> 是 < p> 的子標籤，所以 < strong> 繼承了 < p> 的樣式，而在 < p> 的樣式中，文字顏色是設定為綠色的。</p>
+
+ 
+ 
+<div id="mid">
+	下一頁： <a href="http://www.1keydata.com/css-tutorial/tw/margin.php"> CSS Class 與 CSS ID</a>
+</div>  
+<div id="mid">
+Copyright © 2016<a href="http://www.1keydata.com/">1keydata.com</a> 
+</div>  
+        </body>
+</html>
